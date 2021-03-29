@@ -1,0 +1,21 @@
+body {
+	background: linear-gradient(to bottom, #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
+}
+
+#pegboard {
+	width: 900px;
+	height: 900px;
+	margin: 20 auto;
+	position: relative;
+	background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 5%, rgba(0,0,0,1) 14%, rgba(0,0,0,1) 100%);
+}
+
+.tile {
+	width: 290px;
+	height: 290px;
+	position: absolute;
+	background: #bc8f8f;
+}
+
+.tilecenter {
+}
